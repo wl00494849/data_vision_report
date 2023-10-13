@@ -13,7 +13,7 @@ annual_cencer_dt = pd.read_csv('annual_cencer.csv')
 
 x = annual_cencer_dt['年度'].array
 print(annual_cencer_dt.columns)
-ax.plot(x,annual_cencer_dt['氣管、支氣管和肺癌 '].values,label='氣管、支氣管和肺癌',marker='o',markersize=4);
+ax.plot(x,annual_cencer_dt['氣管、支氣管和肺癌 '].values,label='Lung Cancer',marker='o',markersize=4);
 ax.plot(x,annual_cencer_dt['肝和肝內膽管癌 '].values,label='Liver Cancer',marker='o',markersize=4);
 ax.plot(x,annual_cencer_dt['結腸、直腸和肛門癌 '].values,label='Colorectal Cancer',marker='o',markersize=4);
 ax.plot(x,annual_cencer_dt['女性乳癌 '].values,label='Breast Cancer',marker='o',markersize=4);
