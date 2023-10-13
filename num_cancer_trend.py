@@ -11,7 +11,7 @@ ax.set_xlabel('Annual')
 ax.set_ylabel('Death Population')
 annual_cencer_dt = pd.read_csv('annual_cencer.csv')
 
-# 取得年度欄位array
+# 取得年度欄位轉換成array
 x = annual_cencer_dt['年度'].array
 # print data column名稱
 print(annual_cencer_dt.columns)
