@@ -6,7 +6,7 @@ import os
 fig = plt.figure()
 ax = plt.axes()
 
-ax.set_title("Annual_Cencer")
+ax.set_title("National Annual Cancer Death Population")
 ax.set_xlabel('Annual')
 ax.set_ylabel('Death Population')
 annual_cencer_dt = pd.read_csv('annual_cencer.csv')
