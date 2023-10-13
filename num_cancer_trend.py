@@ -24,6 +24,8 @@ ax.plot(x,annual_cencer_dt['肝和肝內膽管癌 '].values,label='Liver Cancer'
 ax.plot(x,annual_cencer_dt['結腸、直腸和肛門癌 '].values,label='Colorectal Cancer',marker='o',markersize=4);
 ax.plot(x,annual_cencer_dt['女性乳癌 '].values,label='Breast Cancer',marker='o',markersize=4);
 ax.plot(x,annual_cencer_dt['口腔癌 '].values,label='Oral Cancer',marker='o',markersize=4);
+
+# 畫出來
 plt.legend()
 plt.show();
 
