@@ -22,10 +22,10 @@ print(annual_cencer_dt.columns)
 # annual_cencer_dt['氣管、支氣管和肺癌 '].values 取得氣管、支氣管和肺癌內的值並轉換成陣列
 # marker 折線圖點
 # marker 折線圖點大小
+ax.plot(x,annual_cencer_dt['惡性腫瘤'].values,label='惡性腫瘤',marker='o',markersize=4);
 ax.plot(x,annual_cencer_dt['氣管、支氣管和肺癌'].values,label='氣管、支氣管和肺癌',marker='o',markersize=4);
 ax.plot(x,annual_cencer_dt['肝和肝內膽管癌'].values,label='肝和肝內膽管癌',marker='o',markersize=4);
 ax.plot(x,annual_cencer_dt['結腸、直腸和肛門癌'].values,label='結腸、直腸和肛門癌',marker='o',markersize=4);
-ax.plot(x,annual_cencer_dt['女性乳癌'].values,label='女性乳癌',marker='o',markersize=4);
 ax.plot(x,annual_cencer_dt['口腔癌'].values,label='口腔癌',marker='o',markersize=4);
 
 # 畫出來
