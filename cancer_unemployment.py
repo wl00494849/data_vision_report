@@ -9,7 +9,7 @@ ax = plt.axes()
 #中文字型
 plt.rcParams['font.sans-serif'] = 'PingFang HK'
 
-ax.set_title('失業人口與癌症死亡關係')
+ax.set_title('失業人口與惡性腫瘤死亡關係')
 ax.set_xlabel('年度')
 ax.set_ylabel('人口數')
 
