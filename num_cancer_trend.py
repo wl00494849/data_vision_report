@@ -7,8 +7,10 @@ import os
 fig = plt.figure()
 ax = plt.axes()
 
+#中文字型
 matplotlib.rc('font', family='PingFang HK')
 plt.rcParams['font.sans-serif'] = 'PingFang HK'
+
 ax.set_title('全國前五癌症死亡人口趨勢')
 ax.set_xlabel('年度')
 ax.set_ylabel('死亡人口')
