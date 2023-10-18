@@ -19,6 +19,11 @@ plt.bar(x, df['惡性腫瘤（男）'].values, width, color='#4A6FF5', label='�
 plt.bar(x + width, df['惡性腫瘤（女）'].values, width, color='#F54520', label='女')
 plt.xticks(x + width / 2, df['年齡'])
 
+for a,b in zip(x,df['惡性腫瘤（男）']):
+    plt.text(a, b+0.05, '%.0f' % b, ha='center', va= 'bottom',fontsize=7)
+for a,b in zip(x,df['惡性腫瘤（女）']):
+    plt.text(a+width, b+0.05, '%.0f' % b, ha='center', va= 'bottom',fontsize=7)
+
 plt.xlabel('年齡')
 plt.ylabel('死亡人數')
 plt.title('110年齡與性別癌症死亡人數')
